@@ -24,9 +24,6 @@
             --color-secondary: oklch(37.2% 0.044 257.287);
             --color-third: oklch(20.8% 0.042 265.755);
             --color-dark: oklch(12.9% 0.042 264.695);
-
-            --breakpoint-2xl: 100rem;
-
         }
     </style>
 </head>
@@ -35,14 +32,14 @@
     <header class="sticky top-0 z-50 shadow-md">
         <nav class="bg-white shadow-lg">
                 <div class="container mx-auto">
-                    <div class="sm:flex justify-between md:">
+                    <div class="sm:flex justify-between">
                         <a href="#home" class="flex text-primary text-3xl p-3 items-center">Fakhridho Gunawan</a>
 
-                        <ul class="text-dark sm:self-center text-xl border-t sm:border-none md:flex lg:text-2xl gap-5">
-                            <li class="sm:inlane-block"><a href="#home" class="p-3 hover:text-primary transition duration-300">Home</a></li>
-                            <li class="sm:inlane-block"><a href="#about" class="p-3 hover:text-primary transition duration-300">About</a></li>
-                            <li class="sm:inlane-block"><a href="#projects" class="p-3 hover:text-primary transition duration-300">Projects</a></li>
-                            <li class="sm:inlane-block"><a href="#contact" class="p-3 hover:text-primary transition duration-300">Contact</a></li>
+                        <ul class="flex justify-evenly text-dark sm:self-center text-xl border-t sm:border-none md:flex lg:text-2xl md:gap-5 lg:gap-5 py-3">
+                            <li class="sm:text-base md:text-2xl"><a href="#home" class="p-3 hover:text-primary transition duration-300">Home</a></li>
+                            <li class="sm:text-base md:text-2xl"><a href="#about" class="p-3 hover:text-primary transition duration-300">About</a></li>
+                            <li class="sm:text-base md:text-2xl"><a href="#projects" class="p-3 hover:text-primary transition duration-300">Projects</a></li>
+                            <li class="sm:text-base md:text-2xl"><a href="#contact" class="p-3 hover:text-primary transition duration-300">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -110,6 +107,47 @@
     </section>
      <!-- About End -->
 
-     <script src="js/script.js"></script>
+     <!-- Projects Section Start -->
+    <section id="projects" class="pt-24 pb-24 bg-slate-200">
+        <div class="container mx-auto">
+            <div class="w-full px4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Projects</h4>
+                    <p class="font-medium text-md text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sint ducimus quibusdam nostrum praesentium voluptatum distinctio fuga nulla nihil! Corrupti.</p>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="assets/images/projects.jpg" alt="projects1" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Project Pertama</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, vero provident repudiandae veniam possimus id!</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="assets/images/projects.jpg" alt="projects2" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Project Kedua</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, vero provident repudiandae veniam possimus id!</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="assets/images/projects.jpg" alt="projects3" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Project Ketiga</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, vero provident repudiandae veniam possimus id!</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="assets/images/projects.jpg" alt="projects4" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Project Keempat</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, vero provident repudiandae veniam possimus id!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Projects Section End -->
 </body>
 </html>
